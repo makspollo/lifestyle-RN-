@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="FOh-gT-Y11">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashScreen.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vGy-7X-Uaz">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.98828469219063264" green="0.9949275233380549" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vGy-7X-Uaz" secondAttribute="bottom" id="R1G-j1-wxp"/>
+                <constraint firstAttribute="trailing" secondItem="vGy-7X-Uaz" secondAttribute="trailing" id="e5I-0C-Ed7"/>
+                <constraint firstItem="vGy-7X-Uaz" firstAttribute="leading" secondItem="FOh-gT-Y11" secondAttribute="leading" id="hmF-WN-dqr"/>
+                <constraint firstItem="vGy-7X-Uaz" firstAttribute="top" secondItem="FOh-gT-Y11" secondAttribute="top" id="vTA-D6-T3v"/>
+            </constraints>
+            <point key="canvasLocation" x="531" y="390"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="splashScreen.jpg" width="1242" height="2208"/>
+    </resources>
+</document>
